@@ -84,7 +84,8 @@ int toOctal(int iNumber)
 char *toHexa(int iNumber){
 
     char *cHexadecimal = malloc(65 * sizeof(int));
-	char cValues[] = { '0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
+    cHexadecimal = "0";
+    char cValues[] = { '0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
     int iIndex = 0;
     int iResidual;
 
